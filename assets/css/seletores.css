@@ -1,0 +1,28 @@
+img{
+    width: 200px;
+}
+
+#the-office{
+    width: 50px;
+}
+
+#breaking-bad{
+    width: 100px;
+}
+
+#the-walking-dead{
+    width: 150px;
+
+}
+
+#todo-mundo-odeia-o-chris{
+    width: 250px;
+}
+
+/* Classe: é uma forma de compartilhar estilização entre elementos 
+<a class="imagens-mesmo-tamanho>Login</a>
+*/
+
+.imagens-mesmo-tamanho{
+    width: 250px;
+}
