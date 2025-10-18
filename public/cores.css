@@ -17,22 +17,22 @@ h2{
 
 div {
     background-color:rgb(255, 0, 251);
-}
-
-p{
-    color:rgb(253, 245, 0);
-}
-
-a{
     
-    color:rgb(0, 0, 253);
-    /* text-decoration altera a decoração do texto none faz com que o texto não
-    tenha nenhuma decoração*/
-    text-decoration: none;
-    padding: 8px;
-
-}
-
-a:hover{
-    color: rgb(242, 255, 0);
+    p{
+        color:rgb(253, 245, 0);
+    }
+    
+    a{
+        
+        color:rgb(0, 0, 253);
+        /* text-decoration altera a decoração do texto none faz com que o texto não
+        tenha nenhuma decoração*/
+        text-decoration: none;
+        padding: 8px;
+        
+    }
+    
+    a:hover{
+        color: rgb(242, 255, 0);
+    }
 }
