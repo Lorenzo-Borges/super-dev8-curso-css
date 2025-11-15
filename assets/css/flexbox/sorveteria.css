@@ -1,0 +1,95 @@
+body{
+    background: linear-gradient(180deg, #eefaf7, #d4f4ff);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.cabecalho{
+    background-color: #11B19F;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.titulo{
+    color:#fff;
+    text-align: center;
+}
+
+.botao-nav{
+    padding: 10px;
+}
+
+.titulo2{
+    color: #189C8E;
+}
+
+.cabecalho2{
+    flex-direction: column;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.grid-lateral{
+    justify-content: flex-start;
+    width: 500px;
+    padding-left: 40px;
+}
+
+.segundo-grid{
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.botao-sabores{
+    padding: 10px;
+    background-color: #189C8E;
+    width: 100%;
+}
+
+.sorvete{
+    display: flex;
+}
+
+button{
+    border-radius: 30px;
+    border: 0px solid;
+    background-color: #65C4B7;
+    color: #fff;
+}
+
+.imagem{
+    background-color: radial-gradient(circle at 20% 20%, #ffffff, #c4f3e6 40%, #9be7ff 75%);
+    font-size: 80px;
+    margin-left: 40px;
+    width: 100%;
+}
+
+.sabores{
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}

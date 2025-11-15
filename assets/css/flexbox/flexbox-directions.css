@@ -1,3 +1,14 @@
+:root{
+    --body-backgrond-color:#c6e6ff;
+    --section-background-color: #eec8f0;
+    --section-border-color:#f4acec;
+    --descricao-color:#4ba9ed;
+    --item-background-color:#220357;
+    --item-color:#f0b1c3;
+    --flex-container-border-color:#58499a;
+    --flex-container-background-color:#6c69bf;
+}
+
 * {
     box-sizing: content-box;
 }
@@ -6,7 +17,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: var(--body-backgrond-color);
 }
 
 h1{
@@ -15,8 +26,8 @@ h1{
 }
 
 div.section{
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: var(--section-background-color);
+    border: 1px solid var(--section-border-color);
     border-radius: 8px;
     padding: 16px;
     margin-bottom: 20px;
@@ -29,13 +40,13 @@ div.section{
 
 .descricao{
     font-size: 14px;
-    color: #555;
+    color: var(--item-background-color);
     margin-bottom: 12px;
 }
 
 .item{
-    background-color: #3a3f12;
-    color: #f0b1c3;
+    background-color: var(--item-background-color);
+    color: var(--item-color);
     padding: 10px;
     margin: 4px;
     border-radius: 4px;
@@ -44,10 +55,10 @@ div.section{
 
 .flex-container{
     display: flex;
-    border: 1px dashed #fafafa;
+    border: 1px dashed var(--flex-container-border-color);
     padding: 10px;
     min-height: 80px;
-    background-color: #81777e;
+    background-color: var(--flex-container-background-color);
 }
 
 .exemplo1{
